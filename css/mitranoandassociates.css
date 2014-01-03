@@ -1,33 +1,28 @@
+html{
+	height: 100%;
+}
+
 body{
 	padding: 0px;
 	margin: 0px;
+	height: 100%;
 	font-family: Avenir, Futura, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.img-nikko{
- width: 200px;
- height: 200px;
- background-image: url(../img/profile.jpeg);
- background-size: cover;
- display: block;
- border-radius: 100px;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
- margin-right: auto;
- margin-left: auto;
- margin-top: 30px;
- margin-bottom: 30px;
+.wrapper{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -40px;
 }
 
 footer{
 	background-color: #333;
-	position: fixed;
-	padding: 30px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	margin: 40px 0px 0px 0px;
+	padding: 40px;
+	height: 40px;
+	margin-bottom: -40px;
 }
+
 footer ul{
 	list-style: none;
 	text-align: center;
@@ -47,6 +42,7 @@ footer ul li{
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
+	margin-bottom: 40px;
 }
 
 header.splash{
@@ -66,106 +62,7 @@ header.splash{
 	margin: 20px auto 0px auto;
 }
 
-.greetings{
-		text-align: center;
-	color: #fff;
-	font-size: 35pt;
-	font-weight: 10;
-	padding: 0px 0px 0px 0px;
-	margin: 0px auto 0px auto;
-}
-
-ul.social{
-	list-style: none;
-	text-align: center;
-	padding: 0px;
-	margin: 50px 0px 0px 0px;
-}
-ul.social li{
-	display: inline-block;
-	text-align: center;
-	margin: 0px 10px 0px 10px;
-}
-ul.social li a{
-	color: #fff;
-	text-decoration: none;
-	padding: 15px 10px 15px 10px;
-	border: 2px solid #fff;
-	-moz-transition: all 350ms ease;
-	-webkit-transition: all 350ms ease;
-	-o-transition: all 350ms ease;
-	transition: all 350ms ease;
-}
-ul.social li a:hover{
-	color: #2a3344;
-	background-color: #fff;
-	border: 2px solid #ddd;
-	-moz-transition: all 350ms ease;
-	-webkit-transition: all 350ms ease;
-	-o-transition: all 350ms ease;
-	transition: all 350ms ease;
-}
 
 img { 
    border:1px solid #021a40;
-}
-
-.greetings{
-	text-align: center;
-}
-
-.twitter:before{
-	content: url(../img/twit-icon.png);
-	padding: 0px 5px 0px 0px;
-}
-.twitter:hover:before{
-	content: url(../img/twit-icon-b.png);
-	padding: 0px 5px 0px 0px;
-}
-.github:before{
-	content: url(../img/git-icon.png);
-	padding: 0px 5px 0px 0px;
-}
-.github:hover:before{
-	content: url(../img/git-icon-b.png);
-	padding: 0px 5px 0px 0px;
-}
-
-.linkedin:before{
-	content: url(../img/link-icon.png);
-	padding: 0px 5px 0px 0px;
-}
-.linkedin:hover:before{
-	content: url(../img/link-icon-b.png);
-	padding: 0px 5px 0px 0px;
-}
-
-.work{
-	color: #666;
-	font-size: 20pt;
-	text-align: center;
-	font-weight: 900;
-	margin: 50px 0px 30px 0px;
-}
-
-.portfolio{
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-}
-
-@media all and (max-width:730px){
-	.work{
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	ul.social{
-		padding: 0px;
-		margin: 0px;
-	}
-	ul.social li{
-		display: inline-block;
-		text-align: center;
-		margin: 50px 10px 0px 10px;
-	}
 }
