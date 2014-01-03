@@ -45,6 +45,51 @@ footer ul li{
 	margin-bottom: 40px;
 }
 
+.img-tracymitrano{
+ width: 200px;
+ height: 200px;
+ background-image: url(../img/tracymitrano.jpg);
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
+.img-nikkoschaff{
+ width: 200px;
+ height: 200px;
+ background-image: url(../img/nikkoschaff.jpg);
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
+.img-paulciminelli{
+ width: 200px;
+ height: 200px;
+ background-image: url(../img/paulciminelli.jpg);
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
 header.splash{
 	padding: 50px;
 	background: url(../img/bg.jpg) no-repeat center center fixed;
