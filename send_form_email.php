@@ -42,7 +42,7 @@ if(isset($_POST['email'])) {
 
     $email_to = "contact@mitranoandassociates.com";
  
-    $email_subject = "Inquiry from" . $name;
+    $email_subject = "Inquiry from " . $name;
      
  
     $error_message = "";
@@ -75,7 +75,7 @@ if(isset($_POST['email'])) {
  
   }
  
-    $email_message = "Form details below.\n\n";
+    $email_message = "";
  
      
  
@@ -93,7 +93,7 @@ if(isset($_POST['email'])) {
   
     $email_message .= "Email: ".clean_string($email_from)."\n";
   
-    $email_message .= "Comments: ".clean_string($comments)."\n";
+    $email_message .= "Comments: \n\n".clean_string($comments)."\n";
  
      
  
