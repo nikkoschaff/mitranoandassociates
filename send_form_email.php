@@ -59,13 +59,13 @@ if(isset($_POST['email'])) {
  
   if(!preg_match($string_exp,$name)) {
  
-    $error_message .= 'The Name you entered does not appear to be valid.<br />';
+    $error_message .= 'Please include your name.<br />';
  
   }
  
   if(strlen($comments) < 2) {
  
-    $error_message .= 'The Comments you entered do not appear to be valid.<br />';
+    $error_message .= 'Please include a comment.<br />';
  
   }
  
@@ -112,14 +112,11 @@ $headers = 'From: '.$email_from."\r\n".
 ?>
  
  
- 
-<!-- include your own success html here -->
- 
- 
- 
-Thank you for contacting us. We will be in touch with you very soon.
- 
- 
+ <div class="container">   
+  <h1>Thank you for contacting us</h1><br />
+  <p class="member-bio">We will be in touch with you very soon.</p><br />
+  <a href="index.html">Back to home</a>
+</div>
  
 <?php
  
