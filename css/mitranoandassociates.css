@@ -45,6 +45,163 @@ footer ul li{
 	margin-bottom: 40px;
 }
 
+.splash{
+	padding: 150px;
+	background: url(../img/cayuga.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#splash-title{
+	color: #FFFFFF;
+	font-family: 'Avenir', 'Open Sans', 'Helvetica Neue', sans-serif;
+	text-align: center;
+}
+
+#splash-description
+{
+	color: #FFFFFF;
+	font-family: 'Avenir', 'Open Sans', 'Helvetica Neue', sans-serif;
+	text-align: center;
+}
+
+#edlaw
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/edlaw-book.png);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
+#intprop
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/intproperty-lightbulb.png);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
+#edpolicy
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/edpolicy-cap.png);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
+#resource
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/resource.png);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
+#govt
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/govt-building.png);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
+#biz
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/biz-briefcase.png);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
+#cloud
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/cloud-cloud.png);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
+#info
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/infomgmt-chatbubble.png);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
+#webdev
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/webdev-comp.png);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
+#privacy
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/privacy-lock.png);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
+#orgplanning
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/orgplanning-ppl.png);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
+#career
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/careermgmt-star.png);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
+#coursedev
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/coursedev.png);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
+#digitalliteracy
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/digitalliteracy-retweet.png);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
+#copyright
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/copyright-copyright.jpg);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
 .img-tracymitrano{
  width: 200px;
  height: 200px;
@@ -105,20 +262,20 @@ footer ul li{
  margin-bottom: 30px;
 }
 
-header.splash{
-	padding: 50px;
+/*header.splash{
 	background: url(../img/bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
+}*/
+
 .title{
 	text-align: center;
 	color: #fff;
 	font-size: 15pt;
 	font-weight: 10;
-	padding: 20px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 	margin: 20px auto 0px auto;
 }
 
