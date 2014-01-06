@@ -49,19 +49,56 @@
         </div><!-- /.navbar-collapse -->
       </nav>
 
-      <div class="container">
+
+
+      <form name="contactform" method="post" action="send_form_email.php">
+        <table width="450px">
+          <tr>
+            <td valign="top">
+              <label for="name">Name</label>
+            </td>
+            <td valign="top">
+              <input  type="text" name="name" maxlength="50" size="30">
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <label for="email">Email Address</label>
+            </td>
+            <td valign="top">
+              <input  type="text" name="email" maxlength="80" size="30">
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <label for="comments">Comment</label>
+            </td>
+            <td valign="top">
+              <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center">
+              <input type="submit" value="Submit">
+            </td>
+          </tr>
+        </table>
+      </form>
+
+
+<!--       <div class="container">
         <h1>Contact Us</h1>
-        <form class="well span8">
+        <form class="well span8" action="MAILTO:someone@example.com" method="post" enctype="text/plain">
           <div class="row">
             <div class="span3">
-              <label>Name</label>
+              <label>Name:</label>
               <br />
-              <input type="text" class="span3">
+              <input type="text" name="name" class="span3">
               <br />
-              <label>Email Address</label>
+              <label>Email Address:</label>
               <br />
               <div class="input-prepend">
-                <span class="add-on"><i class="icon-envelope"></i></span><input type="text" id="inputIcon" class="span2" style="width:233px">
+                <span class="add-on"><i class="icon-envelope"></i></span><input type="text" name="mail" id="inputIcon" class="span2" style="width:233px">
               </div>
             </div>
             <div class="span5">
@@ -73,7 +110,8 @@
           </div>
           <button type="submit" class="btn btn-primary pull-left">Send</button>
         </form>
-      </div>
+      </div> -->
+
     </div>
   </body>
 
