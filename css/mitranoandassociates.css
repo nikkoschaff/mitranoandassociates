@@ -59,6 +59,10 @@ footer ul li{
 	color: #FFFFFF;
 	font-family: 'Avenir', 'Open Sans', 'Helvetica Neue', sans-serif;
 	text-align: center;
+	font-size: 80px;
+	font-weight: 100;
+	margin: -100px auto auto auto;
+	text-shadow: 2px 2px #000000
 }
 
 #splash-description
@@ -66,6 +70,9 @@ footer ul li{
 	color: #FFFFFF;
 	font-family: 'Avenir', 'Open Sans', 'Helvetica Neue', sans-serif;
 	text-align: center;
+	font-size: 30px;
+	font-weight: 100;
+	text-shadow: 2px 2px #000000
 }
 
 #edlaw
