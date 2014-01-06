@@ -90,6 +90,21 @@ footer ul li{
  margin-bottom: 30px;
 }
 
+.img-paulayounger{
+ width: 200px;
+ height: 200px;
+ background-image: url(../img/paulayounger.jpg);
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
 header.splash{
 	padding: 50px;
 	background: url(../img/bg.jpg) no-repeat center center fixed;
@@ -105,6 +120,36 @@ header.splash{
 	font-weight: 10;
 	padding: 20px 0px 0px 0px;
 	margin: 20px auto 0px auto;
+}
+
+h1
+{
+	text-align: center;
+	margin: 0px auto;
+}
+
+h2
+{
+	text-align: center;
+	margin: 0px auto;
+}
+
+h3
+{
+	text-align: center;
+	margin: 0px auto;
+}
+
+.member-role
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.member-bio
+{
+	text-align: center;
 }
 
 
