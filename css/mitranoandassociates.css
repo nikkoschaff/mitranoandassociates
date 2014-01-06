@@ -13,7 +13,7 @@ body{
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -40px;
+	margin: 0px auto -40px auto;
 }
 
 footer{
@@ -46,12 +46,13 @@ footer ul li{
 }
 
 .splash{
-	padding: 150px;
+	padding: 200px;
 	background: url(../img/cayuga.jpeg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	margin: -20px auto auto auto;
 }
 
 #splash-title{
@@ -262,13 +263,13 @@ footer ul li{
  margin-bottom: 30px;
 }
 
-/*header.splash{
+header.splash{
 	background: url(../img/bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}*/
+}
 
 .title{
 	text-align: center;
