@@ -317,6 +317,13 @@ h3
 	text-align: center;
 }
 
+.splash-description
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 200%;
+}
+
 
 img { 
    border:1px solid #021a40;
