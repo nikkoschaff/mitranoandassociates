@@ -120,6 +120,15 @@ footer ul li{
  	margin: 20px auto 20px auto;
 }
 
+#career
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/careermgmt-star.png);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
 #info
 {
 	width: 64px;
@@ -134,33 +143,6 @@ footer ul li{
 	width: 64px;
 	height: 64px;
 	background-image: url(../img/webdev-comp.png);
-	background-size: cover;
- 	margin: 20px auto 20px auto;
-}
-
-#privacy
-{
-	width: 64px;
-	height: 64px;
-	background-image: url(../img/privacy-lock.png);
-	background-size: cover;
- 	margin: 20px auto 20px auto;
-}
-
-#orgplanning
-{
-	width: 64px;
-	height: 64px;
-	background-image: url(../img/orgplanning-ppl.png);
-	background-size: cover;
- 	margin: 20px auto 20px auto;
-}
-
-#career
-{
-	width: 64px;
-	height: 64px;
-	background-image: url(../img/careermgmt-star.png);
 	background-size: cover;
  	margin: 20px auto 20px auto;
 }
