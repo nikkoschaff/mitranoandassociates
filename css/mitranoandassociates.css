@@ -111,24 +111,6 @@ footer ul li{
  	margin: 20px auto 20px auto;
 }
 
-#govt
-{
-	width: 64px;
-	height: 64px;
-	background-image: url(../img/govt-building.png);
-	background-size: cover;
- 	margin: 20px auto 20px auto;
-}
-
-#biz
-{
-	width: 64px;
-	height: 64px;
-	background-image: url(../img/biz-briefcase.png);
-	background-size: cover;
- 	margin: 20px auto 20px auto;
-}
-
 #cloud
 {
 	width: 64px;
