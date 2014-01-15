@@ -38,11 +38,15 @@ footer ul li{
 }
 
 .container{
-	max-width: 760px;
+	max-width: 900px;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 40px;
+}
+
+.service-bullets{
+	color: #dab068
 }
 
 .splash{
@@ -77,8 +81,8 @@ footer ul li{
 
 #edlaw
 {
-	width: 64px;
-	height: 64px;
+	width: 40px;
+	height: 40px;
 	background-image: url(../img/edlaw-book.png);
 	background-size: cover;
  	margin: 20px auto 20px auto;
@@ -86,8 +90,8 @@ footer ul li{
 
 #intprop
 {
-	width: 64px;
-	height: 64px;
+	width: 40px;
+	height: 40px;
 	background-image: url(../img/intproperty-lightbulb.png);
 	background-size: cover;
  	margin: 20px auto 20px auto;
@@ -95,8 +99,8 @@ footer ul li{
 
 #edpolicy
 {
-	width: 64px;
-	height: 64px;
+	width: 40px;
+	height: 40px;
 	background-image: url(../img/edpolicy-cap.png);
 	background-size: cover;
  	margin: 20px auto 20px auto;
@@ -104,8 +108,8 @@ footer ul li{
 
 #resource
 {
-	width: 64px;
-	height: 64px;
+	width: 40px;
+	height: 40px;
 	background-image: url(../img/resource.png);
 	background-size: cover;
  	margin: 20px auto 20px auto;
@@ -113,26 +117,17 @@ footer ul li{
 
 #cloud
 {
-	width: 64px;
-	height: 64px;
+	width: 40px;
+	height: 40px;
 	background-image: url(../img/cloud-cloud.png);
-	background-size: cover;
- 	margin: 20px auto 20px auto;
-}
-
-#career
-{
-	width: 64px;
-	height: 64px;
-	background-image: url(../img/careermgmt-star.png);
 	background-size: cover;
  	margin: 20px auto 20px auto;
 }
 
 #info
 {
-	width: 64px;
-	height: 64px;
+	width: 40px;
+	height: 40px;
 	background-image: url(../img/infomgmt-chatbubble.png);
 	background-size: cover;
  	margin: 20px auto 20px auto;
@@ -140,17 +135,26 @@ footer ul li{
 
 #webdev
 {
-	width: 64px;
-	height: 64px;
+	width: 40px;
+	height: 40px;
 	background-image: url(../img/webdev-comp.png);
+	background-size: cover;
+ 	margin: 20px auto 20px auto;
+}
+
+#career
+{
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/careermgmt-star.png);
 	background-size: cover;
  	margin: 20px auto 20px auto;
 }
 
 #coursedev
 {
-	width: 64px;
-	height: 64px;
+	width: 40px;
+	height: 40px;
 	background-image: url(../img/coursedev.png);
 	background-size: cover;
  	margin: 20px auto 20px auto;
@@ -158,8 +162,8 @@ footer ul li{
 
 #digitalliteracy
 {
-	width: 64px;
-	height: 64px;
+	width: 40px;
+	height: 40px;
 	background-image: url(../img/digitalliteracy-retweet.png);
 	background-size: cover;
  	margin: 20px auto 20px auto;
@@ -167,9 +171,9 @@ footer ul li{
 
 #copyright
 {
-	width: 64px;
-	height: 64px;
-	background-image: url(../img/copyright-copyright.jpg);
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/copyright-copyright.png);
 	background-size: cover;
  	margin: 20px auto 20px auto;
 }
@@ -260,7 +264,9 @@ h1
 h2
 {
 	text-align: center;
+	font-size: 20px;
 	margin: 0px auto;
+	color: #dab068;
 }
 
 h3
