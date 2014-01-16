@@ -69,7 +69,7 @@ footer ul li{
 	text-shadow: 2px 2px #000000
 }
 
-#splash-description
+#splash-subtitle
 {
 	color: #FFFFFF;
 	font-family: 'Avenir', 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -77,6 +77,15 @@ footer ul li{
 	font-size: 30px;
 	font-weight: 100;
 	text-shadow: 2px 2px #000000
+}
+
+.splash-description
+{
+	color: #858585;
+	font-family: 'Avenir', 'Open Sans', 'Helvetica Neue', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 100;
 }
 
 #edlaw
@@ -259,6 +268,7 @@ h1
 {
 	text-align: center;
 	margin: 0px auto;
+	color: #858585;
 }
 
 h2
@@ -273,12 +283,14 @@ h3
 {
 	text-align: center;
 	margin: 0px auto;
+	color: #858585;
 }
 
 .member-role
 {
 	text-align: center;
 	font-weight: bold;
+	color: #858585;
 }
 
 
