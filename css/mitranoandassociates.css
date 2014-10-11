@@ -262,6 +262,21 @@ footer ul li{
  margin-bottom: 30px;
 }
 
+.img-davidsherry{
+ width: 200px;
+ height: 200px;
+ background-image: url(../img/davidsherry.jpg);
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
 header.splash{
 	background: url(../img/bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
