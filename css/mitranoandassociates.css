@@ -307,6 +307,14 @@ footer ul li{
  margin-bottom: 30px;
 }
 
+.video-promo
+{
+	width: 500px;
+ 	height: 400px;
+ 	margin: auto auto auto auto;
+
+}
+
 header.splash{
 	background: url(../img/bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
