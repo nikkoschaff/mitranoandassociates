@@ -315,6 +315,13 @@ footer ul li{
 
 }
 
+.video-interview
+{
+	width: 560px;
+ 	height: 315px;
+ 	margin: auto auto auto auto;
+}
+
 header.splash{
 	background: url(../img/bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
